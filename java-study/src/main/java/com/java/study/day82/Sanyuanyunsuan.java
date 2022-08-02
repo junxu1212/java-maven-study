@@ -11,5 +11,9 @@ public class Sanyuanyunsuan {
         System.out.println(max+""+min);
 //        结果类型一般情况下保持一致
 //        结果也可以是表达式
+        int value=true?100:(int)11.0;
+        System.out.println(value);
+        int value1=false?100:(int)11.0;
+        System.out.println(value1);
     }
 }
